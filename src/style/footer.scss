@@ -1,0 +1,29 @@
+.footer {
+    background-color: rgb(61, 81, 255);
+    width: 100%;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    justify-content: center;
+    color: white;
+    .links-wrapper {
+        margin-top: 10px;
+        height: 40px;
+        a {
+            margin: 0px 30px;
+            width: 80px;
+            height: 50px;
+            text-decoration: none;
+            color: white;
+            transition: .2s;
+        }
+        a:hover {
+            font-size: 1.1em;
+            background-color: aqua;
+        }
+        
+    }
+    
+    .copyright {
+        justify-self: center;
+    }
+}

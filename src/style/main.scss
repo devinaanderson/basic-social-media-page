@@ -1,0 +1,13 @@
+@import 'navbar.scss';
+@import 'content.scss';
+@import 'footer.scss';
+
+// html {
+//     font-size: 162.5%; // 1rem is 10px
+// }
+.app {
+    
+    display: grid;
+    justify-items: center;
+    background-color: rgb(226, 226, 226);
+}

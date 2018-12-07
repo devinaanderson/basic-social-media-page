@@ -1,0 +1,43 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 100%;
+    
+    padding: 13px 20px 0px;
+    // justify-content: space-between;
+    background-color: rgb(127, 255, 212);
+    height: 85px;
+    box-shadow: 4px 4px 20px 0px rgba(0,0,0,.5);
+
+
+    .links-wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-self: end;
+        justify-self: center;
+        a {
+            // display: flex;
+            // justify-items: end;
+            // align-items: flex-end;
+            // padding: 10px 20px;
+            margin-bottom: 5px;
+            width: 80px;
+            height: 30px;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            transition: .2s;
+        }
+        a:hover {
+            font-size: 1.1em;
+            background-color: rgb(184, 255, 231);
+        }
+    }
+
+    .username {
+        align-self: start;
+        justify-self: end;
+    }
+}
+
